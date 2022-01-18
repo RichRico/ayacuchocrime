@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #393a39;
+}
+#map {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  right: 15%;
+  bottom: 10%;
+  width: 70%;
+  height: 80%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.menu-ui {
+  background: #c4c5c2;
+  position: absolute;
+  top: 15%;
+  right: 0px;
+  left: 3%;
+  z-index: 1;
+  border-radius: 3px;
+  width: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  height: 200px;
+}
+.menu-ui a {
+  font-size: 15px;
+  color: #404040;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.menu-ui a:first-child {
+  border-radius: 3px 3px 0 0;
+}
+.menu-ui a:last-child {
+  border: none;
+  border-radius: 0 0 3px 3px;
+}
+.menu-ui a:hover {
+  background: #f8f8f8;
+  color: #404040;
+}
+.menu-ui a.active,
+.menu-ui a.active:hover {
+  background: #333;
+  color: #fffdfd;
+  font-weight: bolder;
+}
+
